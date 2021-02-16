@@ -20,3 +20,21 @@ Since the network and internet is often only for organizers of the camps, the ba
 
 ## Telephony
 If telephony is requested, I have a cheap german SIP-Trunk and a freepbx installation that can be added to the rack in a matter of minutes. People on the camp can then either a SIP-Client on their phones or a SIP(LAN) to Analog client for analog telephones. But the SIP thing covers most of the applications. 
+
+## Networking Setup
+### Internal LAN
+10.0.1.0/24
+- DHCP-Range: 10.0.1.100 - 10.0.1.250
+
+### Guest LAN
+10.0.2.0/24
+- DHCP-Range: 10.0.2.50 - 10.0.2.250
+
+### Management LAN
+10.0.0.0/24
+- DHCP-Range: 10.0.0.120 - 10.0.0.250
+- APs
+  - AP1: 10.0.0.10
+  - AP2: 10.0.0.11
+  - AP3: 10.0.0.12
+  - AP4: 10.0.0.13
