@@ -25,10 +25,14 @@ If telephony is requested, I have a cheap german SIP-Trunk and a freepbx install
 ### Internal LAN
 10.0.1.0/24
 - DHCP-Range: 10.0.1.100 - 10.0.1.250
+- VLAN 10
 
 ### Guest LAN
 10.0.2.0/24
 - DHCP-Range: 10.0.2.50 - 10.0.2.250
+- Captive portal at 10.0.2.1
+- Link limited to 1mbit/1mbit
+- VLAN 20
 
 ### Management LAN
 10.0.0.0/24
@@ -38,3 +42,5 @@ If telephony is requested, I have a cheap german SIP-Trunk and a freepbx install
   - AP2: 10.0.0.11
   - AP3: 10.0.0.12
   - AP4: 10.0.0.13
+- Full access to all VLANS
+- VLAN 10, 20
