@@ -44,3 +44,4 @@ If telephony is requested, I have a cheap german SIP-Trunk and a freepbx install
   - AP4: 10.0.0.13
 - Full access to all VLANS
 - VLAN 10, 20
+- Juniper: 10.0.0.1
